@@ -79,7 +79,7 @@ async function fetchTypeChart(){
     footerP("Fetching type chart")
     window.typeChart = {}
     try{
-        let rawTypeChart = await fetch("https://raw.githubusercontent.com/ydarissep/inclement-emerald-pokedex/main/src/typeChart.json")
+        let rawTypeChart = await fetch("https://raw.githubusercontent.com/funnotbun/funnotbun.github.io/main/src/typeChart.json")
         typeChart = await rawTypeChart.json()
     }
     catch(e){
